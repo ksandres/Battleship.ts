@@ -71,7 +71,9 @@ function barcosJug1 (matrizJug1) {
     const coordOcupadas = [];
     // Se inicializa un array para almacenar las coordenadas del barco # 1
     const coordenadasJ1B1 = [];
-    let fila1B1J1, columna1B1J1, fila2B1J1, columna2B1J1, fila3B1J1, columna3B1J1;
+    let fila1B1J1, columna1B1J1,
+        fila2B1J1, columna2B1J1,
+        fila3B1J1, columna3B1J1;
     /**
      * Bloque para generar las coordenadas del primer barco
      * Se generan pares de numeros que funcionan como coordenadas
@@ -108,7 +110,12 @@ function barcosJug1 (matrizJug1) {
     // Se inicicia un array para almacenar las coordenadas del barco # 2
     const coordenadasJ1B2 = [];
     // Se inician las variables de las coordenadas del barco #2
-    let fila1B2J1, columna1B2J1, fila2B2J1U, fila2B2J1D, columna2B2J1, fila3B2J1U, fila3B2J1D, columna3B2J1, fila4B2J1U, fila4B2J1D, columna4B2J1;
+    let fila1B2J1, columna1B2J1,
+        fila2B2J1U, fila2B2J1D,
+        columna2B2J1, fila3B2J1U,
+        fila3B2J1D, columna3B2J1,
+        fila4B2J1U, fila4B2J1D,
+        columna4B2J1;
 
     /**
      * Bloque para generar las coordenadas del primer barco
